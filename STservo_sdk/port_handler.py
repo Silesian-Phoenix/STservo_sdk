@@ -87,7 +87,7 @@ class PortHandler(object):
 
         return time_since
 
-    def setupPort(self):
+    def setupPort(self, cflag_baud):
         if self.is_open:
             self.closePort()
 
